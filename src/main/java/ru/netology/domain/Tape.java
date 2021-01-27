@@ -1,6 +1,6 @@
 package ru.netology.domain;
 
-public class TapeManager {
+public class Tape {
     private int idTape;
     private String data;
     private String ownerId;
@@ -11,7 +11,5 @@ public class TapeManager {
     private String text;
     private Comment comment;
 
-    public String generateBlock (){
-        return null;
-    }
+
 }

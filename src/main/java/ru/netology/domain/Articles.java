@@ -1,12 +1,8 @@
 package ru.netology.domain;
 
-public class ArticlesManager {
+public class Articles {
     private int idArticles;
     private String name;
     private String imageUrl;
-
-    public String generateBlock(){
-        return null;
-    }
 
 }
