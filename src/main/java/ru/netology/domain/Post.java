@@ -1,15 +1,17 @@
 package ru.netology.domain;
 
-public class Tape {
+public class Post {
     private int idTape;
+    private int ownerId;
+    private int fromId;
+    private int createdId;
     private String data;
-    private String ownerId;
+    private String text;
     private String imageUrl;
     private Likes likes;
     private Repost repost;
     private int views;
-    private String text;
     private Comment comment;
-
+    private Geo geo;
 
 }
